@@ -5,8 +5,8 @@
    Tutorial 12
    Case Problem 3
 
-   Author: 
-   Date:   
+   Author: Evelyn Duarte
+   Date: 04.05.19  
 
    Filename: js_tree.js
 
@@ -36,13 +36,21 @@
       Returns true if tString represents the text of a white space text
       node and false if it doesn't
 */
+var nodeCount = 0;
+var elemCount = 0;
+var textCount = 0;
+var wsCount = 0;
 
+window.onload = makeTree;
 
+function makeTree() {
+
+}
 
 
 
 
 
 function isWhiteSpaceNode(tString) {
-   return !(/[^\t\n\r ]/.test(tString));
+      return !(/[^\t\n\r ]/.test(tString));
 }
